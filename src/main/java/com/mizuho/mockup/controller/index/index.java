@@ -11,9 +11,8 @@ public class index {
 
     @RequestMapping(path = "/",method = RequestMethod.GET)
     public ModelAndView index(ModelAndView modelAndView) {
-
         modelAndView.setViewName("index");
-        modelAndView.addObject("hello","Win");
+        modelAndView.addObject("hello","Win5555");
         return  modelAndView;
 
     }
